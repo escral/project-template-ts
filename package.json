@@ -20,6 +20,8 @@
         "@escral/lint": "^2.0",
         "@escral/versioning": "^1.5",
         "@types/node": "^22.10",
+        "tsdown": "^0.15.12",
+        "typescript": "^5.9.3",
         "vite": "^7.1.9",
         "vite-plugin-dts": "^4.3",
         "vitest": "^3.2.4"
