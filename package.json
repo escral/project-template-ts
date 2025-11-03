@@ -15,7 +15,7 @@
         "dist"
     ],
     "scripts": {
-        "pub": "pnpm build && pnpm new-version -s && npm publish --access public",
+        "release": "pnpm build && pnpm new-version -s && npm publish --access public",
         "build": "tsdown",
         "dev": "tsdown --watch",
         "test": "vitest",
