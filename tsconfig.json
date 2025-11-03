@@ -1,19 +1,6 @@
 {
+    "extends": "@escral/tsconfig/lib",
     "compilerOptions": {
-        "lib": [
-            "ESNext"
-        ],
-        "target": "ESNext",
-        "module": "ESNext",
-        "moduleResolution": "bundler",
-        "strict": true,
-        "resolveJsonModule": true,
-        "esModuleInterop": true,
-        "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true,
-        "types": [
-            "node"
-        ],
         "paths": {
             "~/*": [
                 "./src/*"
